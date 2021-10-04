@@ -562,7 +562,7 @@ label.bold {
     z-index: 0;
 }
 
-.highlight {
+.highlight1 {
     height: 10px;
     width: 170px;
     background-color: #23bcf9;
@@ -817,4 +817,95 @@ a:hover{
     margin: 0px;
     margin-bottom: 0px;
     font-weight: bold;
+}
+
+
+.pageFirstSection {
+    padding-top: 120px;
+}
+
+.sectionDetails {
+    padding: 60px 40px;
+    padding-top: 150px;
+}
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 34%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 480px;
+    width: 853px;
+    display: inline-block;
+}
+
+.comparisonTableSection {
+    padding-top: 0px;
+    padding-bottom: 46px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.highlight2 {
+    height: 10px;
+    width: 170px;
+    background-color: #23bcf9;
+    position: absolute;
+    margin: 0px;
+    top: 685px;
+    opacity: 1;
+    z-index: 1;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: transparent;
+    text-align: start;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #65cd24;
+    border-radius: 50%;
+    display: block;
+    margin-left: 22%;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: #f0f3fe;
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: #f0f3fe;
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: #f0f3fe;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: transparent;
+}
+
+.info-blocks .info-blocks-in p {
+    font-size: 16px;
+    color: #b3b1b1;
+}
+
+.autoHeight {
+    height: auto;
+    min-height: 250px;
 }
