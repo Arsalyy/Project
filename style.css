@@ -909,3 +909,51 @@ table {
     height: auto;
     min-height: 250px;
 }
+
+.sectionDetailsSearchBar {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.insuranceSearchBar {
+    font-weight: bold;
+    color:grey;
+    font-size: 16px;
+    padding: 20px;
+    background: #f0f3fe;
+}
+
+.sectionDetailsInsurance {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.insuranceList {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+}
+
+.sectionSeeMore {
+    padding: 60px 0;
+}
+
+
+.btnInsurance{
+    border: 2px solid #05bdfd;
+    color: #05bdfd;
+    padding: 14px 51px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
