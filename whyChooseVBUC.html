@@ -23,11 +23,11 @@
 
 <body>
     <!-- Navigation Bar -->
-    <header class="fixed-header">
-        <nav class="navbar navbar-default py-1">
-            <div class="container-fluid row">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid noPadding noMargin">
 
-                <div class="col-3 navbar-header d-sm-flex align-items-center">
+                <div class="navbar-header">
                     <div class="dropdown ">
                         <button class="dropbtn">
                             <svg onclick="myFunction()" xmlns="http://www.w3.org/2000/svg" class="custom-btn"
@@ -47,13 +47,14 @@
                             <a href="#">Cupping</a>
                         </div>
                     </div>
-                    <span class="menuSpan px-2">Menu</span>
-                    <a class="navbar-brand px-4" href="#"><img src="images/logo.png" alt="VBUC Logo"></a>
+                    <span class="menuSpan">Menu</span>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="VBUC Logo"></a>
                 </div>
 
 
-                <ul class="col-lg-9 nav navbar-right d-sm-flex align-items-center">
-                    <li id="left-nav" class="timing">
+                <ul class="nav navbar-right">
+
+                    <li class="callNowList px-2">
                         <span>7 Days A Week</span>
                         <h5>10 AM to 10 PM</h5>
                     </li>
@@ -71,9 +72,6 @@
 
                     <li class="callNowList">
                         <a class="btnCallNow btnDirection" target="_blank" href="#">
-                            <div class="iconArea">
-                                <span class="glyphicon glyphicon-map-marker"></span>
-                            </div>
                             <div class="callNowText">
                                 <span>Get Directions</span>
                                 <h5>
@@ -87,9 +85,6 @@
 
                     <li class="callNowList">
                         <a class="btnCallNow" href="tel:734-699-9888">
-                            <div class="iconArea">
-                                <span class="glyphicon glyphicon-earphone"></span>
-                            </div>
                             <div class="callNowText">
                                 <span>Call Now</span>
                                 <h5>
@@ -109,15 +104,15 @@
     <!--Section Details-->
     <section class="sectionDetails pageFirstSection">
         <div class="container">
-            <div class="col-md-12 marginBottom20">
+            <div class="marginBottom20">
                 <div class="sectionHeading ">
                     <h2 class="">Why Choose Van Buren Urgent Care </h2>
                     <span class="highlight1"></span>
                 </div>
             </div>
-            <div class="col-md-12 text-center">
-                <iframe style="width: 853px; height: 387.59px;" src='https://www.youtube.com/embed/Zi8NcUhBUOw?rel=0'
-                    frameborder='0' allowfullscreen title="Introductory Video"></iframe>
+            <div class="text-center">
+                <iframe class="youtube" src='https://www.youtube.com/embed/Zi8NcUhBUOw?rel=0' frameborder='0'
+                    allowfullscreen title="Introductory Video"></iframe>
             </div>
         </div>
     </section>
@@ -206,7 +201,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-6 info-blocks  autoHeight">
+                    <div class="col-lg-6 info-blocks  autoHeight">
                         <img src="images/why1.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Superior Medical Care</h3>
@@ -218,7 +213,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 info-blocks autoHeight">
+                    <div class="col-lg-6 info-blocks autoHeight">
                         <img src="images/why2.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Best Prices Around</h3>
@@ -235,7 +230,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-6 info-blocks  autoHeight">
+                    <div class="col-lg-6 info-blocks  autoHeight">
                         <img src="images/why3.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Low Wait Time</h3>
@@ -246,7 +241,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 info-blocks autoHeight">
+                    <div class="col-lg-6 info-blocks autoHeight">
                         <img src="images/why4.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>No Appointment Needed</h3>
@@ -265,7 +260,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-6 info-blocks  autoHeight">
+                    <div class="col-lg-6 info-blocks autoHeight">
                         <img src="images/why5.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Wide Range of Services</h3>
@@ -276,7 +271,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 info-blocks autoHeight">
+                    <div class="col-lg-6 info-blocks autoHeight">
                         <img src="images/why6.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Simple and Easy</h3>
@@ -443,16 +438,16 @@
 
             <div>
                 <ul>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>Receive Expert Medical Service</span>
                     </li>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>Friendly and Caring Medical Staff</span>
                     </li>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>Warm and Inviting Environment</span>
                     </li>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>More affordable than other urgent cares</span>
                     </li>
                 </ul>

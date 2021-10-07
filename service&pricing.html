@@ -24,11 +24,11 @@
 
 <body>
     <!-- Navigation Bar -->
-    <header class="fixed-header">
-        <nav class="navbar navbar-default py-1">
-            <div class="container-fluid row">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid noPadding noMargin">
 
-                <div class="col-3 navbar-header d-sm-flex align-items-center">
+                <div class="navbar-header">
                     <div class="dropdown ">
                         <button class="dropbtn">
                             <svg onclick="myFunction()" xmlns="http://www.w3.org/2000/svg" class="custom-btn"
@@ -48,13 +48,14 @@
                             <a href="#">Cupping</a>
                         </div>
                     </div>
-                    <span class="menuSpan px-2">Menu</span>
-                    <a class="navbar-brand px-4" href="#"><img src="images/logo.png" alt="VBUC Logo"></a>
+                    <span class="menuSpan">Menu</span>
+                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="VBUC Logo"></a>
                 </div>
 
 
-                <ul class="col-lg-9 nav navbar-right d-sm-flex align-items-center">
-                    <li id="left-nav" class="timing">
+                <ul class="nav navbar-right">
+
+                    <li class="callNowList px-2">
                         <span>7 Days A Week</span>
                         <h5>10 AM to 10 PM</h5>
                     </li>
@@ -72,9 +73,6 @@
 
                     <li class="callNowList">
                         <a class="btnCallNow btnDirection" target="_blank" href="#">
-                            <div class="iconArea">
-                                <span class="glyphicon glyphicon-map-marker"></span>
-                            </div>
                             <div class="callNowText">
                                 <span>Get Directions</span>
                                 <h5>
@@ -88,9 +86,6 @@
 
                     <li class="callNowList">
                         <a class="btnCallNow" href="tel:734-699-9888">
-                            <div class="iconArea">
-                                <span class="glyphicon glyphicon-earphone"></span>
-                            </div>
                             <div class="callNowText">
                                 <span>Call Now</span>
                                 <h5>
@@ -185,7 +180,8 @@
             <div class="sectionDetailsServicesTable">
                 <div class="servicesListParent">
                     <div class="row">
-                        <div class="col-md-6 servicesListContainerLeft noPddingNoMargin">
+                        <div id="customServiceListItemsLeft"
+                            class="col-md-6 servicesListContainerLeft noPddingNoMargin">
                             <ul class="servicesList">
                                 <li>
                                     <div class="servicesListItem">
@@ -287,7 +283,8 @@
                             </ul>
                         </div>
 
-                        <div class="col-md-6 servicesListContainerRight noPddingNoMargin">
+                        <div id="customServiceListItemsRight"
+                            class="col-md-6 servicesListContainerRight noPddingNoMargin">
                             <ul class="servicesList">
 
                                 <li>
@@ -404,7 +401,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock1.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Blood Pressure Check</h3>
@@ -413,7 +410,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock2.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Suturing and Splinting for Injury</h3>
@@ -422,7 +419,7 @@
                     </div>
 
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock3.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Wound Care</h3>
@@ -434,7 +431,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock4.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Drainage of Abscess</h3>
@@ -443,7 +440,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock5.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Breathing Treatment</h3>
@@ -452,7 +449,7 @@
                     </div>
 
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock6.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Accuchecks</h3>
@@ -463,7 +460,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock7.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>STD Testing</h3>
@@ -472,7 +469,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock8.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Urinalysis</h3>
@@ -481,7 +478,7 @@
                     </div>
 
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock9.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Injection/TB/PPD Testing</h3>
@@ -492,7 +489,7 @@
 
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock10.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Blood Draws</h3>
@@ -501,7 +498,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock11.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Migraines and Headaches</h3>
@@ -510,7 +507,7 @@
                     </div>
 
 
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock12.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Infections</h3>
@@ -520,7 +517,7 @@
                 </div>
 
                 <div class="row justify-content-center">
-                    <div class="col-md-4 col-sm-6 info-blocks">
+                    <div id="otherServicesCol" class="col-md-4 col-sm-6 info-blocks">
                         <img src="images/infoblock13.png" alt="" class="icon-info-blocks">
                         <div class="info-blocks-in">
                             <h3>Treatment for common Illness/Feeling Sick</h3>
@@ -545,16 +542,16 @@
 
             <div>
                 <ul>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>Receive Expert Medical Service</span>
                     </li>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>Friendly and Caring Medical Staff</span>
                     </li>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>Warm and Inviting Environment</span>
                     </li>
-                    <li><img src="images/catalog-tick.png" alt="-" />
+                    <li id="qualityListItem"><img src="images/catalog-tick.png" alt="-" />
                         <span>More affordable than other urgent cares</span>
                     </li>
                 </ul>
@@ -567,9 +564,6 @@
             </div>
         </div>
     </section>
-
-
-
 
     <!--Footer-->
     <footer class="p-5 bg-white text-dark">
